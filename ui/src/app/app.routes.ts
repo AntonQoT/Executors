@@ -481,7 +481,7 @@ export const routes: Routes = [
         ],
     },
     {
-        path: 'forms',
+        path: 'test-execution',
         component: FormsComponent,
         children: [
             { path: '', component: BasicElementsComponent },

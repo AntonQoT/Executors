@@ -28,13 +28,35 @@ import { JenkinsService } from './jenkins';
 export class BasicElementsComponent {
     constructor(private http: HttpClient, private jenkinsService: JenkinsService) {}
 
-    runPipeline() {
-        this.jenkinsService.triggerPipeline().subscribe({
+    runPipelineMobile(): void {
+        this.jenkinsService.triggerPipelineMobile().subscribe({
             next: (response: any) => {
-                console.log('Pipeline triggered successfully', response);
+                console.log('Mobile Pipeline triggered successfully', response);
             },
             error: (error: any) => {
-                console.error('Error triggering pipeline', error);
+                console.error('Error triggering Mobile pipeline', error);
+            },
+        });
+    }
+
+    runPipelineWeb(): void {
+        this.jenkinsService.triggerPipelineWeb().subscribe({
+            next: (response: any) => {
+                console.log('Web Pipeline triggered successfully', response);
+            },
+            error: (error: any) => {
+                console.error('Error triggering Web pipeline', error);
+            },
+        });
+    }
+
+    runPipelineApi(): void {
+        this.jenkinsService.triggerPipelineApi().subscribe({
+            next: (response: any) => {
+                console.log('API Pipeline triggered successfully', response);
+            },
+            error: (error: any) => {
+                console.error('Error triggering API pipeline', error);
             },
         });
     }

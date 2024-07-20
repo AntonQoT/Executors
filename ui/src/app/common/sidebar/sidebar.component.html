@@ -32,7 +32,7 @@
                         <i class="material-symbols-outlined">analytics</i>
                         <span class="title">Dashboard</span>
                     </a>
-                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = true">
+                    <!-- <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = true">
                         <mat-expansion-panel-header>
                             <mat-panel-title>
                                 <i class="material-symbols-outlined">widgets</i>
@@ -71,7 +71,16 @@
                                 </a>
                             </li>
                         </ul>
-                    </mat-expansion-panel>
+                    </mat-expansion-panel> -->
+                    <a
+                        routerLink="/test-execution"
+                        class="sidebar-menu-link"
+                        routerLinkActive="active"
+                        [routerLinkActiveOptions]="{ exact: true }"
+                    >
+                        <i class="material-symbols-outlined">widgets</i>
+                        <span class="title">Test Execution</span>
+                    </a>
                     <a
                         routerLink="/to-do-list"
                         class="sidebar-menu-link"

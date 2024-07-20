@@ -3,7 +3,7 @@ import {
   MatFormField,
   MatFormFieldControl,
   MatFormFieldModule
-} from "./chunk-NYKG7KJS.js";
+} from "./chunk-MATEPYWI.js";
 import {
   ErrorStateMatcher,
   MAT_OPTGROUP,
@@ -14,13 +14,13 @@ import {
   _ErrorStateTracker,
   _countGroupLabelsBeforeOption,
   _getOptionScrollPosition
-} from "./chunk-GCRPLB7E.js";
+} from "./chunk-EMVFWBKN.js";
 import {
   CdkConnectedOverlay,
   CdkOverlayOrigin,
   Overlay,
   OverlayModule
-} from "./chunk-OQXIIXIF.js";
+} from "./chunk-HOM3Q6UM.js";
 import {
   animate,
   animateChild,
@@ -33,7 +33,7 @@ import {
 import {
   CdkScrollableModule,
   ViewportRuler
-} from "./chunk-GYFKGZMF.js";
+} from "./chunk-SME7UZJ2.js";
 import {
   FormGroupDirective,
   NgControl,
@@ -48,24 +48,14 @@ import {
   LiveAnnouncer,
   addAriaReferencedId,
   removeAriaReferencedId
-} from "./chunk-7SLKS4IR.js";
-import {
-  SelectionModel
-} from "./chunk-RRLFZZSU.js";
-import {
-  A,
-  DOWN_ARROW,
-  ENTER,
-  LEFT_ARROW,
-  RIGHT_ARROW,
-  SPACE,
-  UP_ARROW,
-  hasModifierKey
-} from "./chunk-CJNMZQC3.js";
+} from "./chunk-32L7H6C3.js";
 import {
   CommonModule,
   NgClass
 } from "./chunk-WDT24ILJ.js";
+import {
+  SelectionModel
+} from "./chunk-RRLFZZSU.js";
 import {
   Attribute,
   ChangeDetectionStrategy,
@@ -141,6 +131,16 @@ import {
   take,
   takeUntil
 } from "./chunk-V7OZNMUU.js";
+import {
+  A,
+  DOWN_ARROW,
+  ENTER,
+  LEFT_ARROW,
+  RIGHT_ARROW,
+  SPACE,
+  UP_ARROW,
+  hasModifierKey
+} from "./chunk-CJNMZQC3.js";
 
 // node_modules/@angular/material/fesm2022/select.mjs
 var _c0 = ["trigger"];
@@ -1512,4 +1512,4 @@ export {
   MatSelectTrigger,
   MatSelectModule
 };
-//# sourceMappingURL=chunk-KWHHNAKX.js.map
+//# sourceMappingURL=chunk-XDREKAWL.js.map
