@@ -8,6 +8,7 @@ import { BasicFormComponent } from './basic-form/basic-form.component';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { MatButton } from '@angular/material/button';
 import { catchError, throwError } from 'rxjs';
+import { JenkinsService } from './jenkins';
 
 @Component({
     selector: 'app-basic-elements',
@@ -25,26 +26,17 @@ import { catchError, throwError } from 'rxjs';
     styleUrl: './basic-elements.component.scss',
 })
 export class BasicElementsComponent {
-    constructor(private http: HttpClient) {}
-    runCommand() {
-        const url = 'http://localhost:8080/job/Hack-Test/build';
-        const username = 'AntonTate';
-        const apiToken = '11b9f8bef3292dfc7b24e09c4e375c860d';
-        const headers = new HttpHeaders({
-            Authorization: 'Basic ' + btoa(username + ':' + apiToken),
-        });
+    constructor(private http: HttpClient, private jenkinsService: JenkinsService) {}
 
-        this.http
-            .post(url, null, { headers })
-            .pipe(catchError(this.handleError))
-            .subscribe({
-                next: (response) => {
-                    console.log('Command executed successfully', response);
-                },
-                error: (error) => {
-                    console.error('Error executing command', error);
-                },
-            });
+    runPipeline() {
+        this.jenkinsService.triggerPipeline().subscribe({
+            next: (response: any) => {
+                console.log('Pipeline triggered successfully', response);
+            },
+            error: (error: any) => {
+                console.error('Error triggering pipeline', error);
+            },
+        });
     }
 
     private handleError(error: any) {
