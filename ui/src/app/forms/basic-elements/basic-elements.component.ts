@@ -63,7 +63,7 @@ export class BasicElementsComponent implements OnInit {
             next: (response: any) => {
                 console.log('Mobile Pipeline triggered successfully', response);
                 const buildNumber = this.buildNumbers['mobile'];
-                const url = `http://localhost:8080/view/all/job/mobile-Tests/${buildNumber}/allure/`;
+                const url = `http://localhost:8080/view/all/job/Mobile-Tests/${buildNumber}/allure/`;
                 window.open(url, '_blank');
             },
             error: (error: any) => {
@@ -93,7 +93,7 @@ export class BasicElementsComponent implements OnInit {
             next: (response: any) => {
                 console.log('API Pipeline triggered successfully', response);
                 const buildNumber = this.buildNumbers['api'];
-                const url = `http://localhost:8080/view/all/job/Web-Api/${buildNumber}/allure/`;
+                const url = `http://localhost:8080/view/all/job/API-Tests/${buildNumber}/allure/`;
                 window.open(url, '_blank');
             },
             error: (error: any) => {

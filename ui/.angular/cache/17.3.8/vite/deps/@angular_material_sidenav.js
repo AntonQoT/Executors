@@ -2,18 +2,18 @@ import {
   MatCommonModule
 } from "./chunk-GCRPLB7E.js";
 import {
-  CdkScrollable,
-  CdkScrollableModule,
-  ScrollDispatcher,
-  ViewportRuler
-} from "./chunk-GYFKGZMF.js";
-import {
   animate,
   state,
   style,
   transition,
   trigger
 } from "./chunk-IJMLZ6XK.js";
+import {
+  CdkScrollable,
+  CdkScrollableModule,
+  ScrollDispatcher,
+  ViewportRuler
+} from "./chunk-GYFKGZMF.js";
 import {
   Directionality
 } from "./chunk-PB7NUMW6.js";

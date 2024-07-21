@@ -1,8 +1,4 @@
 import {
-  NG_VALIDATORS,
-  NG_VALUE_ACCESSOR
-} from "./chunk-BJ3SPJXE.js";
-import {
   animate,
   query,
   stagger,
@@ -10,6 +6,10 @@ import {
   transition,
   trigger
 } from "./chunk-IJMLZ6XK.js";
+import {
+  NG_VALIDATORS,
+  NG_VALUE_ACCESSOR
+} from "./chunk-BJ3SPJXE.js";
 import {
   AsyncPipe,
   DOCUMENT,
