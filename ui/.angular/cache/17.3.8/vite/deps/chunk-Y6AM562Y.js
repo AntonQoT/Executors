@@ -3,7 +3,7 @@ import {
   MatFormField,
   MatFormFieldControl,
   MatFormFieldModule
-} from "./chunk-MATEPYWI.js";
+} from "./chunk-NYKG7KJS.js";
 import {
   ErrorStateMatcher,
   MAT_OPTGROUP,
@@ -14,12 +14,19 @@ import {
   _ErrorStateTracker,
   _countGroupLabelsBeforeOption,
   _getOptionScrollPosition
-} from "./chunk-EMVFWBKN.js";
+} from "./chunk-GCRPLB7E.js";
 import {
   CdkConnectedOverlay,
   CdkOverlayOrigin,
   Overlay,
   OverlayModule
+<<<<<<< HEAD:ui/.angular/cache/17.3.8/vite/deps/chunk-Y6AM562Y.js
+} from "./chunk-CJM3MH4A.js";
+import {
+  CdkScrollableModule,
+  ViewportRuler
+} from "./chunk-GYFKGZMF.js";
+=======
 <<<<<<<< HEAD:ui/.angular/cache/17.3.8/vite/deps/chunk-7FODLUKX.js
 } from "./chunk-CJM3MH4A.js";
 import {
@@ -31,6 +38,7 @@ import {
 ========
 } from "./chunk-HOM3Q6UM.js";
 >>>>>>>> 2f209393f43ea83304cd4e91cfdc02f50ba2908a:ui/.angular/cache/17.3.8/vite/deps/chunk-XDREKAWL.js
+>>>>>>> f5fd157198b45ebb5962fa1fcb79cfe30376e25d:ui/.angular/cache/17.3.8/vite/deps/chunk-XDREKAWL.js
 import {
   animate,
   animateChild,
@@ -41,9 +49,17 @@ import {
   trigger
 } from "./chunk-IJMLZ6XK.js";
 import {
+<<<<<<< HEAD:ui/.angular/cache/17.3.8/vite/deps/chunk-Y6AM562Y.js
+  FormGroupDirective,
+  NgControl,
+  NgForm,
+  Validators
+} from "./chunk-BJ3SPJXE.js";
+=======
   CdkScrollableModule,
   ViewportRuler
 } from "./chunk-SME7UZJ2.js";
+>>>>>>> f5fd157198b45ebb5962fa1fcb79cfe30376e25d:ui/.angular/cache/17.3.8/vite/deps/chunk-XDREKAWL.js
 import {
   Directionality
 } from "./chunk-PB7NUMW6.js";
@@ -52,14 +68,24 @@ import {
   LiveAnnouncer,
   addAriaReferencedId,
   removeAriaReferencedId
-} from "./chunk-32L7H6C3.js";
+} from "./chunk-7SLKS4IR.js";
+import {
+  SelectionModel
+} from "./chunk-RRLFZZSU.js";
+import {
+  A,
+  DOWN_ARROW,
+  ENTER,
+  LEFT_ARROW,
+  RIGHT_ARROW,
+  SPACE,
+  UP_ARROW,
+  hasModifierKey
+} from "./chunk-CJNMZQC3.js";
 import {
   CommonModule,
   NgClass
 } from "./chunk-WDT24ILJ.js";
-import {
-  SelectionModel
-} from "./chunk-RRLFZZSU.js";
 import {
   Attribute,
   ChangeDetectionStrategy,
@@ -135,16 +161,6 @@ import {
   take,
   takeUntil
 } from "./chunk-V7OZNMUU.js";
-import {
-  A,
-  DOWN_ARROW,
-  ENTER,
-  LEFT_ARROW,
-  RIGHT_ARROW,
-  SPACE,
-  UP_ARROW,
-  hasModifierKey
-} from "./chunk-CJNMZQC3.js";
 
 // node_modules/@angular/material/fesm2022/select.mjs
 var _c0 = ["trigger"];
@@ -1516,8 +1532,12 @@ export {
   MatSelectTrigger,
   MatSelectModule
 };
+<<<<<<< HEAD:ui/.angular/cache/17.3.8/vite/deps/chunk-Y6AM562Y.js
+//# sourceMappingURL=chunk-Y6AM562Y.js.map
+=======
 <<<<<<<< HEAD:ui/.angular/cache/17.3.8/vite/deps/chunk-7FODLUKX.js
 //# sourceMappingURL=chunk-7FODLUKX.js.map
 ========
 //# sourceMappingURL=chunk-XDREKAWL.js.map
 >>>>>>>> 2f209393f43ea83304cd4e91cfdc02f50ba2908a:ui/.angular/cache/17.3.8/vite/deps/chunk-XDREKAWL.js
+>>>>>>> f5fd157198b45ebb5962fa1fcb79cfe30376e25d:ui/.angular/cache/17.3.8/vite/deps/chunk-XDREKAWL.js

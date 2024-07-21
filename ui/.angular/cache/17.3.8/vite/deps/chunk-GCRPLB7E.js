@@ -5,7 +5,7 @@ import {
   HighContrastModeDetector,
   isFakeMousedownFromScreenReader,
   isFakeTouchstartFromScreenReader
-} from "./chunk-32L7H6C3.js";
+} from "./chunk-7SLKS4IR.js";
 import {
   Platform,
   _getEventTarget,
@@ -15,6 +15,11 @@ import {
   coerceNumberProperty,
   normalizePassiveListenerOptions
 } from "./chunk-PMSJ7M2W.js";
+import {
+  ENTER,
+  SPACE,
+  hasModifierKey
+} from "./chunk-CJNMZQC3.js";
 import {
   DOCUMENT
 } from "./chunk-WDT24ILJ.js";
@@ -77,11 +82,6 @@ import {
   Subject,
   startWith
 } from "./chunk-V7OZNMUU.js";
-import {
-  ENTER,
-  SPACE,
-  hasModifierKey
-} from "./chunk-CJNMZQC3.js";
 import {
   __spreadProps,
   __spreadValues
@@ -2226,4 +2226,4 @@ export {
   MatRippleLoader,
   _MatInternalFormField
 };
-//# sourceMappingURL=chunk-EMVFWBKN.js.map
+//# sourceMappingURL=chunk-GCRPLB7E.js.map

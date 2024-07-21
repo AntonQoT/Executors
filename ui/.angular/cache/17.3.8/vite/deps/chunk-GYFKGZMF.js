@@ -11,14 +11,14 @@ import {
   supportsScrollBehavior
 } from "./chunk-PMSJ7M2W.js";
 import {
-  DOCUMENT
-} from "./chunk-WDT24ILJ.js";
-import {
   ArrayDataSource,
   _RecycleViewRepeaterStrategy,
   _VIEW_REPEATER_STRATEGY,
   isDataSource
 } from "./chunk-RRLFZZSU.js";
+import {
+  DOCUMENT
+} from "./chunk-WDT24ILJ.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,
@@ -1614,4 +1614,4 @@ export {
   CdkScrollableModule,
   ScrollingModule
 };
-//# sourceMappingURL=chunk-SME7UZJ2.js.map
+//# sourceMappingURL=chunk-GYFKGZMF.js.map
