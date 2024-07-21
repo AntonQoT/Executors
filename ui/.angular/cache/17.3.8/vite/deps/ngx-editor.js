@@ -1,7 +1,6 @@
 import {
   DomSanitizer
 } from "./chunk-N3DYA3U2.js";
-import "./chunk-6LNINYP5.js";
 import {
   CheckboxControlValueAccessor,
   DefaultValueAccessor,
@@ -16,6 +15,7 @@ import {
   Validators,
   ɵNgNoValidate
 } from "./chunk-BJ3SPJXE.js";
+import "./chunk-6LNINYP5.js";
 import {
   AsyncPipe,
   CommonModule,
@@ -94,11 +94,11 @@ import {
   ɵɵtextInterpolate1,
   ɵɵviewQuery
 } from "./chunk-XJAXYSKN.js";
-import "./chunk-JMVNMYSP.js";
 import {
   fromEvent,
   isObservable
 } from "./chunk-Q3LSS7YV.js";
+import "./chunk-JMVNMYSP.js";
 import {
   Subject,
   asyncScheduler,

@@ -4,14 +4,7 @@ import {
   OverlayContainer,
   OverlayModule,
   OverlayRef
-} from "./chunk-OQXIIXIF.js";
-import {
-  BasePortalOutlet,
-  CdkPortalOutlet,
-  ComponentPortal,
-  PortalModule,
-  TemplatePortal
-} from "./chunk-ADEMGVNQ.js";
+} from "./chunk-CJM3MH4A.js";
 import {
   Directionality
 } from "./chunk-PB7NUMW6.js";
@@ -29,6 +22,13 @@ import {
   ESCAPE,
   hasModifierKey
 } from "./chunk-CJNMZQC3.js";
+import {
+  BasePortalOutlet,
+  CdkPortalOutlet,
+  ComponentPortal,
+  PortalModule,
+  TemplatePortal
+} from "./chunk-ADEMGVNQ.js";
 import {
   DOCUMENT
 } from "./chunk-WDT24ILJ.js";
@@ -822,4 +822,4 @@ export {
   Dialog,
   DialogModule
 };
-//# sourceMappingURL=chunk-4KULP2CS.js.map
+//# sourceMappingURL=chunk-UWL3LCAZ.js.map

@@ -2,10 +2,10 @@ import {
   MatCommonModule
 } from "./chunk-GCRPLB7E.js";
 import {
-  CdkPortalOutlet,
-  PortalModule,
-  TemplatePortal
-} from "./chunk-ADEMGVNQ.js";
+  CdkAccordion,
+  CdkAccordionItem,
+  CdkAccordionModule
+} from "./chunk-PN674X5P.js";
 import {
   animate,
   state,
@@ -13,11 +13,6 @@ import {
   transition,
   trigger
 } from "./chunk-IJMLZ6XK.js";
-import {
-  CdkAccordion,
-  CdkAccordionItem,
-  CdkAccordionModule
-} from "./chunk-PN674X5P.js";
 import "./chunk-PB7NUMW6.js";
 import {
   FocusKeyManager,
@@ -32,6 +27,11 @@ import {
   SPACE,
   hasModifierKey
 } from "./chunk-CJNMZQC3.js";
+import {
+  CdkPortalOutlet,
+  PortalModule,
+  TemplatePortal
+} from "./chunk-ADEMGVNQ.js";
 import {
   DOCUMENT
 } from "./chunk-WDT24ILJ.js";
@@ -98,10 +98,10 @@ import {
   ɵɵtemplate,
   ɵɵviewQuery
 } from "./chunk-XJAXYSKN.js";
-import "./chunk-JMVNMYSP.js";
 import {
   merge
 } from "./chunk-Q3LSS7YV.js";
+import "./chunk-JMVNMYSP.js";
 import {
   EMPTY,
   Subject,

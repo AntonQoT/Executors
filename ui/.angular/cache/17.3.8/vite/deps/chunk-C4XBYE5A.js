@@ -3,7 +3,7 @@ import {
   Dialog,
   DialogConfig,
   DialogModule
-} from "./chunk-4KULP2CS.js";
+} from "./chunk-UWL3LCAZ.js";
 import {
   MatCommonModule
 } from "./chunk-GCRPLB7E.js";
@@ -12,11 +12,7 @@ import {
   OverlayContainer,
   OverlayModule,
   OverlayRef
-} from "./chunk-OQXIIXIF.js";
-import {
-  CdkPortalOutlet,
-  PortalModule
-} from "./chunk-ADEMGVNQ.js";
+} from "./chunk-CJM3MH4A.js";
 import {
   animate,
   animateChild,
@@ -39,6 +35,10 @@ import {
   ESCAPE,
   hasModifierKey
 } from "./chunk-CJNMZQC3.js";
+import {
+  CdkPortalOutlet,
+  PortalModule
+} from "./chunk-ADEMGVNQ.js";
 import {
   DOCUMENT,
   Location
@@ -1037,4 +1037,4 @@ export {
   _defaultParams,
   matDialogAnimations
 };
-//# sourceMappingURL=chunk-F5VQYS3K.js.map
+//# sourceMappingURL=chunk-C4XBYE5A.js.map

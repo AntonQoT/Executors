@@ -1,9 +1,4 @@
 import {
-  DomPortalOutlet,
-  PortalModule,
-  TemplatePortal
-} from "./chunk-ADEMGVNQ.js";
-import {
   ScrollDispatcher,
   ScrollingModule,
   ViewportRuler
@@ -24,6 +19,11 @@ import {
   ESCAPE,
   hasModifierKey
 } from "./chunk-CJNMZQC3.js";
+import {
+  DomPortalOutlet,
+  PortalModule,
+  TemplatePortal
+} from "./chunk-ADEMGVNQ.js";
 import {
   DOCUMENT,
   Location
@@ -2859,4 +2859,4 @@ export {
   OverlayModule,
   FullscreenOverlayContainer
 };
-//# sourceMappingURL=chunk-OQXIIXIF.js.map
+//# sourceMappingURL=chunk-CJM3MH4A.js.map
