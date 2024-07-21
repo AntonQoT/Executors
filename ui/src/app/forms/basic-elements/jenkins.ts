@@ -7,7 +7,7 @@ import { catchError } from 'rxjs/operators';
     providedIn: 'root',
 })
 export class JenkinsService {
-    private jenkinsUrl = 'http://localhost:8080/job/Hack-Test/build';
+    private baseUrl = 'http://localhost:8080/job/Hack-Test/build';
     private username = 'AntonTate';
     private apiToken = '11b9f8bef3292dfc7b24e09c4e375c860d';
 
