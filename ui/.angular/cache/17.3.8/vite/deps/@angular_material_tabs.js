@@ -4,10 +4,13 @@ import {
   MatRipple
 } from "./chunk-GCRPLB7E.js";
 import {
+<<<<<<< HEAD
   CdkScrollable,
   ViewportRuler
 } from "./chunk-GYFKGZMF.js";
 import {
+=======
+>>>>>>> f5fd157198b45ebb5962fa1fcb79cfe30376e25d
   animate,
   state,
   style,
@@ -33,6 +36,11 @@ import {
   SPACE,
   hasModifierKey
 } from "./chunk-CJNMZQC3.js";
+import {
+  CdkPortal,
+  CdkPortalOutlet,
+  TemplatePortal
+} from "./chunk-ADEMGVNQ.js";
 import {
   CdkPortal,
   CdkPortalOutlet,
