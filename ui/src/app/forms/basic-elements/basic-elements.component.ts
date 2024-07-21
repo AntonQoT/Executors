@@ -62,9 +62,9 @@ export class BasicElementsComponent implements OnInit {
         this.jenkinsService.triggerPipelineMobile().subscribe({
             next: (response: any) => {
                 console.log('Mobile Pipeline triggered successfully', response);
-                const buildNumber = this.buildNumbers['mobile'];
-                const url = `http://localhost:8080/view/all/job/Mobile-Tests/${buildNumber}/allure/`;
-                window.open(url, '_blank');
+                // const buildNumber = this.buildNumbers['mobile'];
+                // const url = `http://localhost:8080/view/all/job/Mobile-Tests/${buildNumber}/allure/`;
+                // window.open(url, '_blank');
             },
             error: (error: any) => {
                 console.error('Error triggering Mobile pipeline', error);
@@ -72,14 +72,20 @@ export class BasicElementsComponent implements OnInit {
         });
     }
 
+    viewReportMobile(): void {
+        const buildNumber = this.buildNumbers['mobile'];
+        const url = `http://localhost:8080/view/all/job/Mobile-Tests/${buildNumber}/allure/`;
+        window.open(url, '_blank');
+    }
+
     runPipelineWeb(): void {
         this.incrementBuildNumber('web');
         this.jenkinsService.triggerPipelineWeb().subscribe({
             next: (response: any) => {
                 console.log('Web Pipeline triggered successfully', response);
-                const buildNumber = this.buildNumbers['web'];
-                const url = `http://localhost:8080/view/all/job/Web-Tests/${buildNumber}/allure/`;
-                window.open(url, '_blank');
+                // const buildNumber = this.buildNumbers['web'];
+                // const url = `http://localhost:8080/view/all/job/Web-Tests/${buildNumber}/allure/`;
+                // window.open(url, '_blank');
             },
             error: (error: any) => {
                 console.error('Error triggering Web pipeline', error);
@@ -87,19 +93,31 @@ export class BasicElementsComponent implements OnInit {
         });
     }
 
+    viewReportWeb(): void {
+        const buildNumber = this.buildNumbers['web'];
+        const url = `http://localhost:8080/view/all/job/Web-Tests/${buildNumber}/allure/`;
+        window.open(url, '_blank');
+    }
+
     runPipelineApi(): void {
         this.incrementBuildNumber('api');
         this.jenkinsService.triggerPipelineApi().subscribe({
             next: (response: any) => {
                 console.log('API Pipeline triggered successfully', response);
-                const buildNumber = this.buildNumbers['api'];
-                const url = `http://localhost:8080/view/all/job/API-Tests/${buildNumber}/allure/`;
-                window.open(url, '_blank');
+                // const buildNumber = this.buildNumbers['api'];
+                // const url = `http://localhost:8080/view/all/job/API-Tests/${buildNumber}/allure/`;
+                // window.open(url, '_blank');
             },
             error: (error: any) => {
                 console.error('Error triggering API pipeline', error);
             },
         });
+    }
+
+    viewReportApi(): void {
+        const buildNumber = this.buildNumbers['api'];
+        const url = `http://localhost:8080/view/all/job/API-Tests/${buildNumber}/allure/`;
+        window.open(url, '_blank');
     }
 
     private handleError(error: any) {
