@@ -7,23 +7,22 @@ import { catchError } from 'rxjs/operators';
     providedIn: 'root',
 })
 export class JenkinsService {
-    //  private jenkinsUrl = 'http://localhost:8080/job/Hack-Test/build';
-    private baseUrl = 'http://localhost:8080'; // Adjust the base URL as necessary
+    private baseUrl = 'http://localhost:8080/job/Hack-Test/build';
     private username = 'AntonTate';
     private apiToken = '11b9f8bef3292dfc7b24e09c4e375c860d';
 
     constructor(private http: HttpClient) {}
 
     triggerPipelineWeb(): Observable<any> {
-        return this.triggerPipeline('Hack-Test');
+        return this.triggerPipeline('Web-Tests');
     }
 
     triggerPipelineMobile(): Observable<any> {
-        return this.triggerPipeline('MobileTests');
+        return this.triggerPipeline('Mobile-Tests');
     }
 
     triggerPipelineApi(): Observable<any> {
-        return this.triggerPipeline('ApiTests');
+        return this.triggerPipeline('API-Tests');
     }
 
     triggerPipeline(jobName: string): Observable<any> {

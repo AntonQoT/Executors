@@ -1,13 +1,14 @@
 import {
   MatCommonModule
-} from "./chunk-EMVFWBKN.js";
+} from "./chunk-GCRPLB7E.js";
 import "./chunk-PB7NUMW6.js";
 import {
   A11yModule,
   AriaDescriber,
   InteractivityChecker
-} from "./chunk-32L7H6C3.js";
+} from "./chunk-7SLKS4IR.js";
 import "./chunk-PMSJ7M2W.js";
+import "./chunk-CJNMZQC3.js";
 import {
   DOCUMENT
 } from "./chunk-WDT24ILJ.js";
@@ -43,7 +44,6 @@ import {
 import "./chunk-Q3LSS7YV.js";
 import "./chunk-JMVNMYSP.js";
 import "./chunk-V7OZNMUU.js";
-import "./chunk-CJNMZQC3.js";
 import "./chunk-FTQ24RAU.js";
 
 // node_modules/@angular/material/fesm2022/badge.mjs
