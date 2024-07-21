@@ -1,6 +1,6 @@
 import {
   MatCommonModule
-} from "./chunk-GCRPLB7E.js";
+} from "./chunk-EMVFWBKN.js";
 import {
   Platform
 } from "./chunk-PMSJ7M2W.js";
@@ -203,4 +203,4 @@ export {
   throwToolbarMixedModesError,
   MatToolbarModule
 };
-//# sourceMappingURL=chunk-PTCI4GZZ.js.map
+//# sourceMappingURL=chunk-2XMRCZP7.js.map
