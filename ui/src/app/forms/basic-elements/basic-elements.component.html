@@ -24,6 +24,10 @@
         </mat-card-header>
         <mat-card-content>
             <img mat-card-image src="/assets/images/mobile-tests.jpg" alt="Mobile Tests" />
+
+            <div>
+                <label for="mobile-build-number">Last Build Number: {{ buildNumbers['mobile'] }}</label>
+            </div>
             <p>Run all mobile tests in the pipeline.</p>
             <button mat-raised-button color="primary" (click)="runPipelineMobile()">Run Mobile Tests</button>
         </mat-card-content>
@@ -37,6 +41,9 @@
         </mat-card-header>
         <mat-card-content>
             <img mat-card-image src="/assets/images/web-tests.png" alt="Web Tests" />
+            <div>
+                <label for="web-build-number">Last Build Number: {{ buildNumbers['web'] }}</label>
+            </div>
             <p>Run all web tests in the pipeline.</p>
             <button mat-raised-button color="primary" (click)="runPipelineWeb()">Run Web Tests</button>
         </mat-card-content>
@@ -50,6 +57,10 @@
         </mat-card-header>
         <mat-card-content>
             <img mat-card-image src="/assets/images/api-tests.png" alt="API Tests" />
+
+            <div>
+                <label for="api-build-number">Last Build Number: {{ buildNumbers['api'] }}</label>
+            </div>
             <p>Run all API tests in the pipeline.</p>
             <button mat-raised-button color="primary" (click)="runPipelineApi()">Run API Tests</button>
         </mat-card-content>
