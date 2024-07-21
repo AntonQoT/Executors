@@ -15,15 +15,15 @@ export class JenkinsService {
     constructor(private http: HttpClient) {}
 
     triggerPipelineWeb(): Observable<any> {
-        return this.triggerPipeline('Hack-Test');
+        return this.triggerPipeline('Web-Tests');
     }
 
     triggerPipelineMobile(): Observable<any> {
-        return this.triggerPipeline('MobileTests');
+        return this.triggerPipeline('Mobile-Tests');
     }
 
     triggerPipelineApi(): Observable<any> {
-        return this.triggerPipeline('ApiTests');
+        return this.triggerPipeline('API-Tests');
     }
 
     triggerPipeline(jobName: string): Observable<any> {
